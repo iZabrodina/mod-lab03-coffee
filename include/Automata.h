@@ -21,7 +21,7 @@ private:
 	int choice_user;
 
 public:
-	Automata();
+Automata();
 	void on();
 	void off();
 	void coin(int c);
