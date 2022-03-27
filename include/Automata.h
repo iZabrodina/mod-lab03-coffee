@@ -4,8 +4,8 @@
 using std::string;
 
 enum STATES {
-	OFF,
-	WAIT,
+        OFF,
+        WAIT,
 	COOK,
 	ACCEPT,
 	CHECK
