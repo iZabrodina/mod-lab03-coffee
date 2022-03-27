@@ -58,8 +58,7 @@ int Automata::cancel() {
         int c = cash;
         cash = 0;
         return c;
-    }
-    else {
+    } else {
         return 0;
     }
 }
