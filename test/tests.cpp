@@ -10,7 +10,7 @@ TEST(taskA, test1) {
 }
 
 TEST(taskA, test2) {
-	Automata a = Automata();
+    Automata a = Automata();
 	a.on();
 	a.coin(100);
 	int result = a.getState();
@@ -26,8 +26,8 @@ TEST(taskA, test3) {
 	EXPECT_EQ(ACCEPT, result);
 }
 
-TEST(taskA, test4) {
-	Automata a = Automata();
+TEST(taskA, test4) { 
+        Automata a = Automata();
 	a.on();
 	a.coin(200);
 	a.choice(1);
