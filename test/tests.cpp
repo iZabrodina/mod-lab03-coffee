@@ -26,8 +26,8 @@ TEST(taskA, test3) {
 	EXPECT_EQ(ACCEPT, result);
 }
 
-TEST(taskA, test4) { 
-        Automata a = Automata();
+TEST(taskA, test4) {
+	Automata a = Automata();
 	a.on();
 	a.coin(200);
 	a.choice(1);
@@ -36,7 +36,7 @@ TEST(taskA, test4) {
 }
 
 TEST(taskA, test5) {
-	Automata a = Automata();
+    Automata a = Automata();
 	a.on();
 	a.coin(200);
 	a.choice(1);
